@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Casamentos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lista de Casamentos</h1>
+    </header>
+    <div class="container">
+        <h2>Casais Registrados</h2>
+        <ul>
+            <li>
+                <strong>Nome do Casal:</strong> João e Maria
+            </li>
+            <li>
+                <strong>Data do Casamento:</strong> 15 de julho de 2024
+            </li>
+            <li>
+                <strong>Local do Casamento:</strong> São Paulo, SP
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <strong>Nome do Casal:</strong> Pedro e Ana
+            </li>
+            <li>
+                <strong>Data do Casamento:</strong> 30 de setembro de 2024
+            </li>
+            <li>
+                <strong>Local do Casamento:</strong> Rio de Janeiro, RJ
+            </li>
+        </ul>
+        <!-- Adicione mais casais conforme necessário -->
+    </div>
+</body>
+</html>
